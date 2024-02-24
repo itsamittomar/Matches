@@ -5,10 +5,10 @@ const config = {
       host: 'localhost'
     },
     database: {
-      host: 'localhost',
+      host: 'db',
       port: 3306,
-      username: 'root',
-      password: '12345678',
+      username: 'myuser',
+      password: 'mypassword',
       database: 'mydb'
     },
   },
@@ -20,8 +20,8 @@ const config = {
     database: {
       host: 'localhost',
       port: 3306,
-      username: 'root',
-      password: '12345678',
+      username: 'myuser',
+      password: 'mypassword',
       database: 'mydb'
     },
   }
